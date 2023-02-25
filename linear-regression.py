@@ -27,6 +27,7 @@ print("Predictions : ", predictions)
 r_squared = model.score(X_train, y_train)
 print("Coefficient of determination : ", r_squared)
 
+# Visualization
 plt.scatter(X.T[2], X.T[3])
 plt.xlabel('AveRooms')
 plt.ylabel('AveBedrms')
